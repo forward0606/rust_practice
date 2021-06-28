@@ -10,6 +10,7 @@ learn the thing about cargo
 learn rust by write a simple game
 
 generate a number from 1 to 100, and promt user to guess the number
+
 know about
 * let and let mut 
 * expect

@@ -4,8 +4,7 @@ use std::cmp::Ordering;
 
 fn main() {
 	println!("This is a guessing game!");
-	println!("the secret number is {}", secret_number);
-
+	let secret_number = rand::thread_rng().gen_range(1, 101);
 	loop{
 		println!("please enter a number between 1 to 100.");
 		let mut guess = String::new();
